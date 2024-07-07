@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://github.com/denysdovhan/spaceship-prompt.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[submodule "modules/shunit2"]
+	url = https://github.com/kward/shunit2.git
